@@ -1,0 +1,37 @@
+#wrapper {
+display: flex;
+}
+
+.mainContain {
+width: 40%;
+height: 12em;
+padding: 2em;
+}
+#description {
+border-right: 3px solid black;
+}
+#calculatorWindow
+{
+    height: 12em;
+    width: 60%;
+    padding: 1em;
+    background-color: lightgrey;
+}
+#mainSum{
+    width: 100%;
+}
+#calculatorWindow form {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+#calculatorWindow form button {
+    padding: 0.7em;
+    width: 27%;
+    margin: 0.4em;
+}
+#decimalbutton {
+font-weight: bold;}
